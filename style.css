@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #fdf0d5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main { 
+    margin: 0;
+    min-height: 50vh;
+    width: 40vw;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: hsla(339, 100%, 55%, 1);
+    background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF1B6B", endColorstr="#45CAFF", GradientType=1 );
+} */
+
+.container {
+    height: 65vmin;
+    width: 65vmin;
+    background: hsla(339, 100%, 55%, 1);
+    background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF1B6B", endColorstr="#45CAFF", GradientType=1 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 54vmin;
+    width: 54vmin;
+    background-color: chartreuse;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vmin;
+    border-radius: 2vmin;
+}
+
+.box1 {
+    height: 16vmin;
+    width: 16vmin;
+    border-radius: 3vmin;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.6);
+    font-size: 8vmin;
+    color: #b0413e;
+}
+
+#reset-btn {
+    margin-top: 2.5vmin;
+    padding: 2vmin 1.3vmin;
+    font-size: 1.6vmin;
+    border-radius: 1.5vmin;
+    border: none;
+    background-color: #191913;
+    color: white;
+    box-shadow: 0 0.7vmin 1.4vmin rgba(12, 66, 100, 0.5);
+}
+
+.msg-container {
+    margin-bottom: 10vmin;
+}
+
+#msg {
+    font-size: 8vmin;
+}
+
+#new-btn {
+     margin-top: 2.5vmin;
+    padding: 2vmin 1.3vmin;
+    font-size: 1.6vmin;
+    border-radius: 1.5vmin;
+    border: none;
+    background-color: #191913;
+    color: white;
+    box-shadow: 0 0.7vmin 1.4vmin rgba(12, 66, 100, 0.5);
+}
+
+.hide {
+    display: none;
+}
