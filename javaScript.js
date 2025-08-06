@@ -6,7 +6,7 @@ let msg = document.querySelector("#msg");
 
 
 
-let turnO = true //palyerO palyerX
+let turnO = true; //palyerO palyerX
 let count = 0; //for draw
 
 const winPatterns = [
